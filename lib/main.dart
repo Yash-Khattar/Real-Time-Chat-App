@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:real_time_chat_app/chat_screen.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+Future<void> main() async {
   runApp(const MyApp());
 }
 
@@ -12,11 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      debugShowCheckedModeBanner: false,
       home: const ChatScreen(),
     );
   }
