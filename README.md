@@ -1,16 +1,11 @@
-# real_time_chat_app
+# Real-Time Chat App
+**Tech Stack:** 
+- **Frontend:** Flutter
+- **Backend:** Node.js, Socket.io
+- **Database:** PostgreSQL, Prisma, Neon
+- **Hosting:** AWS EC2
 
-A new Flutter project.
+https://github.com/user-attachments/assets/24739302-85d4-443e-a4d7-f6f7ed57490d" 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
